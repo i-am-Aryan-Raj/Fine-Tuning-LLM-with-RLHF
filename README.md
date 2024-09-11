@@ -3,7 +3,7 @@
 ### The objectives of this project were:
 1. Fine-tune a FLAN-T5 model for dialoge summarization using PEFT.
 2. Reduce the toxicity of responses using RLHF, keeping the KL Divergance in check.
-### Steps in which projects was performed:
+### Steps in which project was performed:
 1. Importing dataset.
 2. Used a PEFT fine-tuned FLAN T5 model. (It was directly imported for the project).
 3. Created a PPO model using PEFT for RL and a reference model using the same PEFT model to keep memory foorprint in check.
